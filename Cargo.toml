@@ -3,6 +3,24 @@ name = "hydroxide"
 version = "0.1.0"
 authors = ["Mahmut Bulut <vertexclique@gmail.com>"]
 edition = "2018"
+description = "DB"
+readme = "README.md"
+license = "Apache-2.0/MIT"
+exclude = [
+	".github/*",
+	"examples/*",
+	"graphstore/*",
+	"tests/*",
+	"img/*",
+	"ci/*",
+	"benches/*",
+	"doc/*",
+	"*.png",
+	"*.dot",
+	"*.yml",
+	"*.toml",
+	"*.md"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
